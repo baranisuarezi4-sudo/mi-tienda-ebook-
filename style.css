@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Hero con video */
+.hero {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+}
+
+.hero-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background: #ff4a57;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #e33b4f;
+}
+
+/* Sección de productos */
+.productos {
+    padding: 80px 20px;
+    text-align: center;
+    background: #f5f5f5;
+}
+
+.producto-card {
+    display: inline-block;
+    max-width: 300px;
+    margin: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+    padding: 20px;
+}
+
+.producto-card img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    padding: 30px;
+    text-align: center;
+    background: #333;
+    color: white;
+}
