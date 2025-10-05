@@ -65,7 +65,7 @@ body {
 .productos {
     padding: 80px 20px;
     text-align: center;
-    background: #f5f5f5;
+    background: #2DBA2D;
 }
 
 .producto-card {
@@ -90,5 +90,6 @@ footer {
     background: #333;
     color: white;
 }
+
 
 
